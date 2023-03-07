@@ -1,0 +1,20 @@
+.phone {
+  color: #262525;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  background: #262525;
+}
+.textLogo {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+
+  color: #262525;
+}
