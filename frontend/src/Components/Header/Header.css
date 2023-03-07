@@ -1,10 +1,19 @@
 .phone {
   color: #262525;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
 }
 .logo {
   width: 70px;
   height: 70px;
   background: #262525;
+  display: flex;
 }
 .textLogo {
   font-family: 'Gilroy';
@@ -17,4 +26,41 @@
   text-transform: uppercase;
 
   color: #262525;
+}
+.mainMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.logoInto {
+  display: flex;
+  background-color: #f0f0f0;
+  width: 27.01px;
+  height: 27.01px;
+  justify-content: center;
+}
+.menu {
+  width: 125px;
+  height: 15px;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+
+  color: #262525;
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
